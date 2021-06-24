@@ -7,7 +7,6 @@ Post /api/auth/register
 example:
 
 username:"Fido",
-
 password:"numberOne"
 
 Post /api/auth/login
@@ -15,7 +14,6 @@ Post /api/auth/login
 example:
 
 username:"Fido",
-
 password:"numberOne"
 
 Plant Endpoints
