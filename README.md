@@ -6,14 +6,16 @@ Post /api/auth/register
 
 example:
 
-username:"Fido"
+username:"Fido",
+
 password:"numberOne"
 
 Post /api/auth/login
 
 example:
 
-username:"Fido"
+username:"Fido",
+
 password:"numberOne"
 
 Plant Endpoints
