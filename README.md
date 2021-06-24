@@ -23,9 +23,9 @@ Plant Endpoints
 plants example:
 
         "id": 1,
-        "nickname": "Eggs",
-        "species": "Grandma",
-        "h2o_frequency": "cake, eggs,"
+        "nickname": "Sunflower",
+        "species": "Flower",
+        "h2o_frequency": "daily"
 
 Post Plants /api/plants
 
