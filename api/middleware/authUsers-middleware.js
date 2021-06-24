@@ -17,7 +17,7 @@ function checkUserID() {
                 res.status(401).json({ message: `no user by ID ${id} found` });
             }
         })
-        .catch((err) =>
+        .catch(() =>
         res.status(500).json({ message: "500 error, can't get by ID" })
         );
     };
