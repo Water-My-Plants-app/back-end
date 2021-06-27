@@ -28,9 +28,9 @@ router.get('/:id', async (req,res) => {
 })
 
 router.post('/', async (req,res) => {
-    const { nickname, species, h2oFrequency } = req.body
+    const { nickname, species, h2o_frequency } = req.body
     try{
-        const plants = await Plants.addPlant({ nickname, species, h2oFrequency })
+        const plants = await Plants.addPlant({ nickname, species, h2o_frequency })
        res.json(plants)
     } catch(err) {
         console.log(err)
